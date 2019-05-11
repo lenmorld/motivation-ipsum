@@ -1,4 +1,3 @@
-'use strict'
 const osmosis = require('osmosis')
 const jsonfile = require('jsonfile')
 const reviews = []
