@@ -1,4 +1,5 @@
 # mother!
+
 [![Build Status](https://travis-ci.org/SaraVieira/mother.svg?branch=master)](https://travis-ci.org/SaraVieira/mother)
 
 > Why use lorem when you can use random reviews from mother! ?
@@ -18,7 +19,7 @@ $ yarn add mother-exclamation-mark
 ## Usage
 
 ```js
-const mother = require('mother-exclamation-mark');
+const mother = require("mother-exclamation-mark");
 
 mother();
 //=> mother review with an object containing title, content and rating
