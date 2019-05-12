@@ -1,5 +1,9 @@
-module.exports = {
-  add: function (a, b) {
-    return a + b;
+module.exports = (_opts) => {
+  const opts = _opts || {}
+
+  if (opts.code) {
+    return "hi";
+  } else {
+    return "woah";
   }
-};
+}
