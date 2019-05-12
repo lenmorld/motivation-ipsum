@@ -1,8 +1,8 @@
-# mother!
+# Motivation-Ipsum
 
-[![Build Status](https://travis-ci.org/SaraVieira/mother.svg?branch=master)](https://travis-ci.org/SaraVieira/mother)
+[![Build Status](https://travis-ci.com/lenmorld/motivation-ipsum.svg?branch=master)](https://travis-ci.com/lenmorld/motivation-ipsum)
 
-> Why use lorem when you can use random reviews from mother! ?
+> Use some motivational quotes instead of Lorem Ipsum!
 
 ![screenshot](image.png)
 
