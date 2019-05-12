@@ -1,45 +1,29 @@
 {
- "name": "mother-exclamation-mark",
- "version": "1.0.4",
- "description": "Why use lorem when you can use random reviews from mother!",
- "license": "WTFPL",
- "repository": "saravieira/mother",
- "author": {
-  "name": "Sara Vieira",
-  "email": "hey@iamsaravieira.com",
-  "url": "iamsaravieira.com"
- },
- "bin": "cli.js",
- "engines": {
-  "node": ">=4"
+ "name": "motivation-ipsum",
+ "version": "1.0.0",
+ "description": "[![Build Status](https://travis-ci.org/lenmorld/motivation-ipsum.svg?branch=master)](https://travis-ci.com/lenmorld/motivation-ipsum)",
+ "main": "index.js",
+ "directories": {
+  "test": "test"
  },
  "scripts": {
-  "test": "eslint . --fix"
+  "test": "echo \"Error: no test specified\" && exit 1"
  },
- "files": [
-  "index.js",
-  "cli.js",
-  "reviews.json"
- ],
- "keywords": [
-  "cli-app",
-  "cli",
-  "motivation",
-  "quotes",
-  "lorem-ipsum"
- ],
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/lenmorld/motivation-ipsum.git"
+ },
+ "author": "",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/lenmorld/motivation-ipsum/issues"
+ },
+ "homepage": "https://github.com/lenmorld/motivation-ipsum#readme",
  "dependencies": {
-  "chalk": "^2.3.0",
-  "jsonfile": "^4.0.0",
-  "meow": "^4.0.0"
+  "chalk": "^2.4.2",
+  "meow": "^5.0.0"
  },
  "devDependencies": {
-  "eslint": "^4.16.0",
-  "eslint-config-standard": "^11.0.0-beta.0",
-  "eslint-plugin-import": "^2.8.0",
-  "eslint-plugin-node": "^5.2.1",
-  "eslint-plugin-promise": "^3.6.0",
-  "eslint-plugin-standard": "^3.0.1",
-  "osmosis": "^1.1.6"
+  "eslint": "^5.16.0"
  }
 }
