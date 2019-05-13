@@ -1,10 +1,9 @@
 var assert = require('assert');
-var calculator = require('../index');
-describe('calculator', function () {
-   describe('add function', function () {
-      it('adds numbers', function () {
-         var result = calculator.add(1, 1);
-         assert.equal(result, 2);
+var motivate = require('../index');
+describe('motivate', function () {
+   it('returns a string ', function () {
+      motivate({}, (quote) => {
+         assert.ok(quote.body);
       });
    });
 });
