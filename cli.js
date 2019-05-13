@@ -1,31 +1,20 @@
 #!/usr/bin/env node
 const meow = require('meow')
 const motivate = require('.')
-// const chalk = require('chalk')
+const chalk = require('chalk')
 const log = console.log
 
 const cli = meow(`
   Usage
    $ motivate-me
 
-   Examples
-    $ motivate-me --code
-      Code faster!
+   Example
     $ motivate-me
-      A random one
+    "Some quote" by some author
 `)
 
-log(motivate(cli.flags));
-
-// log(`
-// ${chalk.gray.bold('Title')}
-// ${chalk.red(mother(cli.flags).title)}
-// `)
-// log(`
-// ${chalk.gray.bold('Review')}
-// ${chalk.green(mother(cli.flags).content)}
-// `)
-// log(`
-// ${chalk.gray.bold('Rating')}
-// ${chalk.yellow(mother(cli.flags).rating)}${chalk.yellow('/10')}
-// `)
+motivate(cli.flags, (quote) => {
+  log(`${chalk.blue.bold(quote.body)}`)
+  log(`by ${chalk.gray(quote.author)}
+`)
+});

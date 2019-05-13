@@ -9,17 +9,25 @@
  "scripts": {
   "test": "mocha"
  },
+ "keywords": [
+  "node",
+  "cli",
+  "npm",
+  "motivation",
+  "js"
+ ],
  "repository": {
   "type": "git",
   "url": "git+https://github.com/lenmorld/motivation-ipsum.git"
  },
- "author": "",
- "license": "ISC",
+ "author": "lenmorld",
+ "license": "WTFPL",
  "bugs": {
   "url": "https://github.com/lenmorld/motivation-ipsum/issues"
  },
  "homepage": "https://github.com/lenmorld/motivation-ipsum#readme",
  "dependencies": {
+  "axios": "^0.18.0",
   "chalk": "^2.4.2",
   "meow": "^5.0.0"
  },
