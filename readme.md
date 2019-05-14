@@ -4,6 +4,8 @@
 
 > Use some motivational quotes instead of Lorem Ipsum!
 
+Inspired and initial version cloned from https://github.com/SaraVieira/mother
+
 ## CLI
 
 ```
