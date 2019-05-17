@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const meow = require('meow')
 const motivate = require('.')
 const chalk = require('chalk')

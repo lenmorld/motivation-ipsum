@@ -1,38 +1,35 @@
 {
- "name": "motivation-ipsum",
- "version": "1.0.0",
- "description": "[![Build Status](https://travis-ci.org/lenmorld/motivation-ipsum.svg?branch=master)](https://travis-ci.com/lenmorld/motivation-ipsum)",
- "main": "index.js",
- "directories": {
-  "test": "test"
- },
- "scripts": {
-  "test": "mocha"
- },
- "keywords": [
-  "node",
-  "cli",
-  "npm",
-  "motivation",
-  "js"
- ],
- "repository": {
-  "type": "git",
-  "url": "git+https://github.com/lenmorld/motivation-ipsum.git"
- },
- "author": "lenmorld",
- "license": "WTFPL",
- "bugs": {
-  "url": "https://github.com/lenmorld/motivation-ipsum/issues"
- },
- "homepage": "https://github.com/lenmorld/motivation-ipsum#readme",
- "dependencies": {
-  "axios": "^0.18.0",
-  "chalk": "^2.4.2",
-  "meow": "^5.0.0"
- },
- "devDependencies": {
-  "eslint": "^5.16.0",
-  "mocha": "^6.1.4"
- }
+   "name": "motivation-ipsum",
+   "version": "1.0.0",
+   "description": "[![Build Status](https://travis-ci.org/lenmorld/motivation-ipsum.svg?branch=master)](https://travis-ci.com/lenmorld/motivation-ipsum)",
+   "main": "index.js",
+   "scripts": {
+      "test": "mocha"
+   },
+   "keywords": [
+      "node",
+      "cli",
+      "npm",
+      "motivation",
+      "js"
+   ],
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lenmorld/motivation-ipsum.git"
+   },
+   "author": "lenmorld",
+   "license": "WTFPL",
+   "bugs": {
+      "url": "https://github.com/lenmorld/motivation-ipsum/issues"
+   },
+   "homepage": "https://github.com/lenmorld/motivation-ipsum#readme",
+   "dependencies": {
+      "axios": "^0.18.0",
+      "chalk": "^2.4.2",
+      "meow": "^5.0.0"
+   },
+   "devDependencies": {
+      "eslint": "^5.16.0",
+      "mocha": "^6.1.4"
+   }
 }
