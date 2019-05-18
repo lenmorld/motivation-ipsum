@@ -6,6 +6,8 @@
 
 Inspired and initial version cloned from https://github.com/SaraVieira/mother
 
+Quotes from here: https://github.com/JamesFT/Database-Quotes-JSON
+
 ## CLI
 
 ```
