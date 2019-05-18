@@ -2,7 +2,15 @@
    "name": "motivation-ipsum",
    "version": "1.0.3",
    "description": "[![Build Status](https://travis-ci.org/lenmorld/motivation-ipsum.svg?branch=master)](https://travis-ci.com/lenmorld/motivation-ipsum)",
-   "main": "index.js",
+   "bin": "cli.js",
+   "engines": {
+      "node": ">=8"
+   },
+   "files": [
+      "index.js",
+      "cli.js",
+      "quotes.json"
+   ],
    "scripts": {
       "test": "mocha"
    },
