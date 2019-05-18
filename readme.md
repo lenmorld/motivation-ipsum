@@ -26,6 +26,18 @@ $ motivation-ipsum --help
      by A Famous Person
 ```
 
+## JS - Node or frontend
+
+```
+const motivation_ipsum = require('motivation-ipsum');
+
+const quote = motivation_ipsum();
+
+console.log("======= MOTIVATION =======");
+console.log(quote.quoteText);
+console.log(`by ${quote.quoteAuthor}`);
+```
+
 ## License
 
 WTFPL © [Lenmor Ld](http://lenmorld.github.io)

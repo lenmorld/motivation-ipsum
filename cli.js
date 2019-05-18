@@ -8,10 +8,10 @@ const log = console.log
 
 const cli = meow(`
   Usage
-   $ motivate
+   $ motivation-ipsum
 
    Example
-    $ motivate
+    $ motivation-ipsum
     "Some quote" by some author
 `)
 
