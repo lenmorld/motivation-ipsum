@@ -1,6 +1,6 @@
 {
    "name": "motivation-ipsum",
-   "version": "1.0.3",
+   "version": "1.0.4",
    "description": "[![Build Status](https://travis-ci.org/lenmorld/motivation-ipsum.svg?branch=master)](https://travis-ci.com/lenmorld/motivation-ipsum)",
    "bin": "cli.js",
    "engines": {
