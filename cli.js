@@ -19,10 +19,3 @@ const quote = motivate();
 
 log(`${chalk.blue.bold(quote.quoteText)}`);
 log(`by ${chalk.gray(quote.quoteAuthor)}`);
-
-
-// motivate(cli.flags, (quote) => {
-//   log(`${chalk.blue.bold(quote.body)}`)
-//   log(`by ${chalk.gray(quote.author)}
-// `)
-// });
