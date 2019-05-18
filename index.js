@@ -1,27 +1,22 @@
-const axios = require('axios');
+#!/usr/bin/env node
 
-const fetchFromQuotes = () => {
-  return new Promise((resolve, reject) => {
-    // http://quotes.rest/qod.json
-    axios.get('https://favqs.com/api/qotd').then(res => {
-      resolve(res.data.quote);
-    }).catch(err => {
-      resolve({
-        author: "Les Brown",
-        body: "Shoot for the moon and if you miss you will still be among the stars.",
-      });
-    });
-  });
+const quotesArray = require('./quotes.json');
+
+const getRandomElemFromArray = (array) => {
+  const randomIndex = Math.floor(Math.random() * (array.length - 1));
+  return array[randomIndex];
 };
 
-module.exports = (_opts, cb) => {
-  const opts = _opts || {}
-
+const getQuote = (_opts) => {
+  const opts = _opts || {};
   if (opts.category) {
     // coming up
   }
 
-  fetchFromQuotes().then(quote => {
-    cb(quote);
-  });
+  if (opts.author) {
+    // coming up
+  }
+  return getRandomElemFromArray(quotesArray);
 }
+
+module.exports = getQuote;
